@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potato Empire Game</title>
+    <link rel="stylesheet" href="./design.css" />
+  </head>
+  <body>
+    <div class="root">
+      <div class="container">
+        <div class="left-panel">
+          <h1 class="heading">Potato Map</h1>
+          <div class="main-grid-wapper">
+            <div class="grid-container" id="mapGrid"></div>
+          </div>
+        </div>
+        <div class="right-panel">
+          <!-- Seasons -->
+          <div class="seasons">
+            <div class="season spring">
+              <p class="season-name">Spring:</p>
+              <span class="points-spring">0 points</span>
+            </div>
+            <div class="season summer">
+              <p class="season-name">Summer:</p>
+              <span class="points-summer">0 points</span>
+            </div>
+            <div class="season autumn">
+              <p class="season-name">Autumn:</p>
+              <span class="points-autumn">0 points</span>
+            </div>
+            <div class="season winter">
+              <p class="season-name">Winter:</p>
+              <span class="points-winter">0 points</span>
+            </div>
+          </div>
+          <div class="total-points">
+            <p class="totalPoints">Total: 0 points</p>
+          </div>
+
+          <!-- Current Season and Missions -->
+          <div class="current-season">
+            <h3>Current season: Summer (BC)</h3>
+            <hr />
+            <div class="missions">
+              <!-- Mission Block A -->
+
+              <div class="mission-grid">
+                <div class="mission-block 0">
+                  <img
+                    class="mission-image image-0"
+                    src="./assets/missions_eng/sleepy_valley.png"
+                    alt="mission"
+                  />
+                  <div class="mission-status">
+                    <span class="missionPoints mission-points-0"
+                      >(0 points)</span
+                    >
+                    <div class="active-letter">
+                      <svg
+                        class="passive-circle circle-0"
+                        width="12"
+                        height="12"
+                      >
+                        <circle
+                          cx="5"
+                          cy="6"
+                          r="5"
+                          stroke-width="4"
+                          fill="#D0E578"
+                        />
+                      </svg>
+                      <span class="mission-letter">A</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mission-block 1">
+                  <img
+                    class="mission-image image-1"
+                    src="./assets/missions_eng/edge_of_the_forest.png"
+                    alt="mission"
+                  />
+                  <div class="mission-status">
+                    <span class="missionPoints mission-points-1"
+                      >(0 points)</span
+                    >
+                    <div class="active-letter">
+                      <svg
+                        class="passive-circle circle-1"
+                        width="12"
+                        height="12"
+                      >
+                        <circle
+                          cx="5"
+                          cy="6"
+                          r="5"
+                          stroke-width="4"
+                          fill="#D0E578"
+                        />
+                      </svg>
+                      <span class="mission-letter">B</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mission-block 2">
+                  <img
+                    class="mission-image image-2"
+                    src="./assets/missions_eng/borderlands.png"
+                    alt="mission"
+                  />
+                  <div class="mission-status">
+                    <span class="missionPoints mission-points-2"
+                      >(0 points)</span
+                    >
+                    <div class="active-letter">
+                      <svg
+                        class="passive-circle circle-2"
+                        width="12"
+                        height="12"
+                      >
+                        <circle
+                          cx="5"
+                          cy="6"
+                          r="5"
+                          stroke-width="4"
+                          fill="#D0E578"
+                        />
+                      </svg>
+                      <span class="mission-letter">C</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mission-block 3">
+                  <img
+                    class="mission-image image-3"
+                    src="./assets/missions_eng/watering_potatoes.png"
+                    alt="mission"
+                  />
+                  <div class="mission-status">
+                    <span class="missionPoints mission-points-3"
+                      >(0 points)</span
+                    >
+                    <div class="active-letter">
+                      <svg
+                        class="passive-circle circle-3"
+                        width="12"
+                        height="12"
+                      >
+                        <circle
+                          cx="5"
+                          cy="6"
+                          r="5"
+                          stroke-width="4"
+                          fill="#D0E578"
+                        />
+                      </svg>
+                      <span class="mission-letter">D</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Time and Current Element -->
+          <div class="time-element">
+            <p class="elapsed-time">
+              Elapsed time in current season: <span id="elapsedTime">0/28</span>
+            </p>
+            <hr />
+
+            <div class="element-controls">
+              <div class="left-part">
+                <h3>Current element:<span class="element-type"></span></h3>
+                <div class="buttons-container">
+                  <div class="buttons">
+                    <button class="btn rotateBtn" id="rotateBtn">Rotate</button>
+                    <button class="btn flipBtn" id="flipBtn">Flip</button>
+                  </div>
+                </div>
+              </div>
+              <div class="right-part">
+                <div class="element-grid" id="elementGrid"></div>
+                <div class="time-cost">
+                  <span class="timeCost" id="timeCost">2</span>
+                  <span class="time-icon">🕒</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup-overlay">
+          <div class="popup-container">
+            <h2 class="game-over-text">Game Over!</h2>
+            <div class="popup-content">
+              <img class="potato" src="./assets/images/potato.png" alt="potato" />
+              <div class="popup-text">
+                <p class="final-score-display">Final Score: 0</p>
+                <div id="seasonScoresDisplay"></div>
+                <div class="buttons-popup">
+                  <button class="popup-btn close-popup">Close</button>
+                  <button class="popup-btn play-again">Play Again</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

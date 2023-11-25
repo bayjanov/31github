@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+/* Basic reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Meriweather', serif;
+}
+
+body, html {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	background-image: url('./assets/images/background-game.jpeg');
+	background-position: center;     /* Center the image */
+	background-repeat: no-repeat;     /* Do not repeat the image */
+	background-size: cover;     /* Resize the background image to cover the entire container */
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+	width: 60vw;
+	padding: 32px;
+	max-height: 100vh;
+	margin-bottom: 40px;
+}
+
+.right-panel {
+	width: 40vw;
+	padding: 20px;
+}
+
+.heading {
+	margin-top: 16px;
+	margin-left: 32px;
+}
+
+.main-grid-wapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(11, 20px);     /* Adjust 20px to your desired cell width */
+	grid-gap: 2px;     /* Adjust 2px to your desired gap size */
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 32px;
+	width: 700px;     /* Adjust this to set a fixed width if needed */
+	height: 700px;
+	grid-template-columns: repeat(11, 1fr);
+
+}
+
+.grid-cell {
+	width: 20px;
+	height: 20px;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.grid-container div {
+	background-color: #EFE2B3;
+	width: 20px;     /* Adjust 20px to your desired cell width */
+	height: 20px;     /* Adjust 20px to your desired cell height */
+	border-radius: 6%;
+	position: relative;
+}
+
+.seasons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.season {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	height: 120px;
+	width: 120px;
+	border-radius: 10px;
+	color: white;
+	font-weight: medium;
+}
+
+.spring {
+	background-color: #69BE6C;
+	border: 4px solid #3B8E3E;
+}
+
+.summer {
+	background-color: #FEE874;
+	border: 4px solid #DDBB08;
+}
+
+.autumn {
+	background-color: #EABD94;
+	border: 4px solid #6C3F14;
+}
+
+.winter {
+	background-color: #59D2EC;
+	border: 4px solid #3190A5;
+}
+
+.total-points {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 64px;
+}
+
+.current-season h3, .time-element h3 {
+	margin-bottom: 10px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #363636;
+	margin: 10px 0;
+}
+
+
+.mission-grid {
+	display: flex;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 8px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.mission-block {
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	background-color: #363636;
+	color: white;
+	padding: 4px 0;
+}
+
+.mission-status {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.missionPoints {
+	font-size: 16px;
+	margin-left: 24px;
+}
+
+.mission-letter {
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+
+.mission-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+
+.mission-details {
+	padding: 10px;
+	width: 66.666%;
+}
+
+.passive-circle {
+	opacity: 0.0;
+}
+
+.active-circle {
+	opacity: 1.0;
+}
+
+
+
+.elapsed-time {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.element-controls {
+	display: flex;
+	align-items: center;
+}
+
+.left-part {
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.ritght-part {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.buttons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.buttons {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.btn {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 12px 30px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #EFE2B3;   
+	transition: background-color 0.6s;
+	box-shadow: 0 0 10px rgba(239, 226, 179, 0.3);
+}
+
+.element-grid {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	display: grid;
+    grid-gap: 2px;
+	border-radius: 16px;
+	background-color: #fff;
+	grid-template-columns: repeat(3, 2fr);
+	grid-template-rows: repeat(3, 1fr);
+	box-shadow: inset 0 0 10px #00000080;
+}
+
+.element-cell {
+	width: 60px;
+	height: 60px;
+	aspect-ratio: 40;     
+    border-radius: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.time-cost {
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4px;
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: inset 0 0 10px #00000080;
+}
+
+.timeCost {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.time-icon {
+	margin-left: 4px;
+	font-size: 18px;
+}
+
+.grid-container div {
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;  
+}
+
+
+.popup-overlay {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.popup-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #b8a18b;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	max-width: 600px;
+	width: 100%;
+	border: #363636 2px solid;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .popup-content {
+	display: flex;
+	flex-direction: row;
+	
+  }
+
+.potato {
+	width: 30%;
+	height: 50%;
+	background-image: url('./assets/images/potato.png');
+	background-size: cover;
+}
+
+.game-over-text {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 0px;
+	font-family: 'Merriweather', serif;
+}
+
+.popup-text {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.final-score-display {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px 0px;
+	font-family: 'Merriweather', serif;
+
+}
+
+.buttons-popup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.popup-btn {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 12px 30px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #EFE2B3;
+	font-family: 'Merriweather', serif;
+  }
+
+  .popup-btn:hover {
+	background-color: #d6c895;   
+	transition: background-color 0.6s;
+	box-shadow: 0 0 10px rgba(239, 226, 179, 0.3);
+  }
