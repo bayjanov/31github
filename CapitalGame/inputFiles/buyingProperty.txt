@@ -1,0 +1,12 @@
+6
+Service 1200
+Property
+Lucky 800
+Property
+Service 2500
+Property
+
+1
+John Greedy
+
+1

@@ -1,0 +1,19 @@
+7
+Service 1500
+Lucky 900
+Property
+Service 2200
+Property
+Lucky 1100
+Property
+
+2
+Eve Tactical
+Frank Greedy
+
+5
+1
+3
+2
+4
+6

@@ -1,0 +1,25 @@
+8
+Property
+Property
+Service 1800
+Lucky 1500
+Service 2300
+Property
+Lucky 1000
+Property
+
+4
+Alice Greedy
+Bob Careful
+Charlie Tactical
+David Careful
+
+6
+3
+2
+4
+1
+5
+2
+1
+3

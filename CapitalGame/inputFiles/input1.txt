@@ -1,0 +1,19 @@
+6
+Property
+Service 1200
+Lucky 800
+Property
+Service 2500
+Property
+
+3
+John Greedy
+Jane Careful
+Doe Tactical
+
+4
+2
+1
+3
+5
+3
