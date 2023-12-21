@@ -1,0 +1,34 @@
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\NewPlants.exe
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\NewPlants.deps.json
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\NewPlants.runtimeconfig.json
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\NewPlants.pdb
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\bin\Debug\net6.0\TextFile.dll
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.AssemblyInfoInputs.cache
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.AssemblyInfo.cs
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.csproj.CopyComplete
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\refint\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.pdb
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\NewPlants.genruntimeconfig.cache
+C:\Users\brian\OneDrive\Desktop\Education\Sem 4\OOP\Lab\Class_11\11-12_base\12_base\NewPlants\NewPlants\obj\Debug\net6.0\ref\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\NewPlants.exe
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\NewPlants.deps.json
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\NewPlants.runtimeconfig.json
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\NewPlants.pdb
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\bin\Debug\net6.0\TextFile.dll
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.csproj.AssemblyReference.cache
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.AssemblyInfoInputs.cache
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.AssemblyInfo.cs
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.csproj.CoreCompileInputs.cache
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.csproj.CopyComplete
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\refint\NewPlants.dll
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.pdb
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\NewPlants.genruntimeconfig.cache
+C:\Users\brian\OneDrive\Desktop\Assignment_2\NewPlants\obj\Debug\net6.0\ref\NewPlants.dll
